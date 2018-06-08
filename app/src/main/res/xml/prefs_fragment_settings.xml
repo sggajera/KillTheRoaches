@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory>
+        android:title="The Settings">
+
+        <Preference
+            android:title="Kill the roaches"
+            android:summary=""
+            android:selectable="false"/>
+        <Preference
+            android:title="HighScore"
+            android:summary="0"
+            android:key="key_highscore"
+            android:selectable="false" />
+
+        <CheckBoxPreference
+            android:title="Play Music"
+            android:key="key_music_enabled"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:title="Play Sound"
+            android:key="key_Sound_enabled"
+            android:defaultValue="true"/>
+        <Preference
+            android:title=""
+            android:key="key_company_info"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
